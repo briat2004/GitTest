@@ -1,11 +1,12 @@
+import UIKit
 
-//Test
-//Test2
-//1
-//2
-//3
-//4
-//4.1
-//5
-//6
-sdd
+class CustomView: UIView {
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
