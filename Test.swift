@@ -4,7 +4,7 @@ class CustomView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgoundColor = .red
+        self.backgroundColor = .red
     }
     
     required init?(coder: NSCoder) {
